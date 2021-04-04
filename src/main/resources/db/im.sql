@@ -18,9 +18,9 @@ CREATE TABLE `friend` (
 -- Inserting 3 rows into friend
 -- Insert batch #1
 INSERT INTO friend (id, user_id, friend_id, build_time, type_id) VALUES
-(1, '1', '2', '2021-03-18 14:21:52', 1),
-(2, '2', '1', '2021-03-19 01:13:10', 1),
-(3, '3', '1', '2021-03-19 01:23:56', 1);
+(1, '1', '2', '2021-03-30 14:21:52', 1),
+(2, '2', '1', '2021-03-30 01:13:10', 1),
+(3, '3', '1', '2021-03-30 01:23:56', 1);
 
 -- END TABLE friend
 
@@ -93,7 +93,7 @@ CREATE TABLE `friend_type` (
 -- Inserting 1 row into friend_type
 -- Insert batch #1
 INSERT INTO friend_type (id, type_name, user_id, build_time, is_default) VALUES
-(1, '家人', '1', '2021-03-18 14:22:20', 1);
+(1, '家人', '1', '2021-03-30 14:22:20', 1);
 
 -- END TABLE friend_type
 
@@ -130,9 +130,9 @@ CREATE TABLE `group_user` (
 -- Inserting 3 rows into group_user
 -- Insert batch #1
 INSERT INTO group_user (id, user_id, group_id, join_time) VALUES
-(1, '1', 1, '2021-03-19 01:12:14'),
-(2, '2', 1, '2021-03-19 01:12:20'),
-(3, '3', 1, '2021-03-19 01:12:29');
+(1, '1', 1, '2021-03-30 01:12:14'),
+(2, '2', 1, '2021-03-30 01:12:20'),
+(3, '3', 1, '2021-03-30 01:12:29');
 
 -- END TABLE group_user
 
